@@ -10,6 +10,8 @@ For a fixed diffusion coefficient, the POD–Galerkin model reduces the full-ord
 
 For the parametric problem, POD subspaces are computed at **7 training parameters** and the interpolation is evaluated at **6 unseen parameters**. The mean Grassmann distance between interpolated and directly constructed POD subspaces is **2.41 × 10⁻⁴**. The interpolated reduced models achieve a mean relative error of **6.996 × 10⁻⁴**, compared with **6.999 × 10⁻⁴** for reduced models constructed directly at the validation parameters.
 
+![Out-of-sample validation of Amsallem--Farhat interpolation](figures/out-of-sample-validation.png)
+
 ## Notebooks
 
 ### [`diffusion-equation-pod-galerkin.ipynb`](diffusion-equation-pod-galerkin.ipynb)
