@@ -1,0 +1,15 @@
+name: pod-grassmann-rom
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - fenics-dolfinx=0.11.0
+  - numpy=2.4
+  - scipy=1.17
+  - matplotlib=3.11
+  - petsc4py=3.25
+  - mpi4py=4.1
+  - jupyterlab
+  - ipykernel
