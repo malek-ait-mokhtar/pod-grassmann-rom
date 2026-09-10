@@ -38,6 +38,15 @@ It covers the theoretical formulation of POD and POD–Galerkin reduction, the R
 
 The implementation uses Python, NumPy, SciPy, Matplotlib, FEniCSx/DOLFINx, PETSc and mpi4py.
 
+## Reproducibility
+
+The Conda environment used for the numerical experiments can be recreated with:
+
+```bash
+conda env create -f environment.yml
+conda activate pod-grassmann-rom
+```
+
 ## Acknowledgements
 
 This work was carried out during a research internship at **LaSIE (UMR CNRS 7356), La Rochelle University**, under the supervision of **Aziz Hamdouni** and **Erwan Liberge**. I would like to thank them for their guidance throughout the internship.
