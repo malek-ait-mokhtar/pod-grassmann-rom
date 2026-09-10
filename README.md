@@ -30,10 +30,14 @@ Extension to the parametric problem:
 
 ## Report
 
-The full mathematical development is available in [`parametric-pod-grassmann-report-french.pdf`](parametric-pod-grassmann-report-french.pdf).
+The full mathematical development is available in [`parametric-pod-grassmann-report-french.pdf`](parametric-pod-grassmann-report-french.pdf) (in French).
 
 It covers the theoretical formulation of POD and POD–Galerkin reduction, the Riemannian geometry of the Grassmann manifold, the Amsallem–Farhat and IDW-G interpolation methods, and the numerical experiments presented in the notebooks.
 
 ## Dependencies
 
 The implementation uses Python, NumPy, SciPy, Matplotlib, FEniCSx/DOLFINx, PETSc and mpi4py.
+
+## Acknowledgements
+
+This work was carried out during a research internship at **LaSIE (UMR CNRS 7356), La Rochelle University**, under the supervision of **Aziz Hamdouni** and **Erwan Liberge**. I would like to thank them for their guidance throughout the internship.
